@@ -1,0 +1,1 @@
+# B2 robot module for isaac-b2-ros2

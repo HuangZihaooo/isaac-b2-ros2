@@ -1,0 +1,149 @@
+# Isaac Sim和Omniverse相关文件
+*.dmp
+*.log
+*.kit
+*.tmp
+omni.log*
+omni_apps.log*
+.launcher_cache/
+.cache/
+.nvidia/
+
+# 输出和日志文件
+outputs/
+logs/
+*.out
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ROS2相关
+install/
+build/
+log/
+*.bag
+
+# USD文件的临时文件
+*.usd~
+*.usda~
+*.usdc~
+
+# 渲染缓存
+render_cache/
+*.exr
+*.hdr
+
+# 模型和资源文件（根据需要调整）
+# model/*.usd  # 如果模型文件较大且不想提交，取消注释
+# model/textures/  # 纹理文件
+
+# Isaac Sim扩展相关
+.isaac_sim_extensions/
+
+# Hydra配置缓存
+.hydra/
+hydra_outputs/
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*~
+
+# 性能分析文件
+*.prof
+*.profile
+
+# Docker相关
+.dockerignore
+Dockerfile*
+
+# 备份文件
+*.bak
+*.backup
+*.orig
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+
+# 测试覆盖率报告
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Isaac Sim特定的缓存目录
+_isaac_sim_cache/
+_isaac_sim_logs/
+
+# GPU调试和分析文件
+*.nsight-cuprof-report
+*.nvprof
+*.qdrep
+
+# 大型数据文件
+*.data
+*.dataset
+
+# 本地配置文件
+local_config.yaml
+*_local.yaml

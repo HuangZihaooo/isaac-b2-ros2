@@ -1,0 +1,34 @@
+# Isaac B2 ROS2 项目依赖
+
+# 核心依赖 (通过Isaac Lab安装)
+# isaacsim>=4.5.0  # 通过NVIDIA官方安装
+# omni-isaac-lab>=2.1.0  # 通过Isaac Lab安装
+
+# Python基础依赖
+numpy>=1.21.0
+hydra-core>=1.3.0
+PyYAML>=6.0
+
+# ROS2相关
+# rclpy  # 通过ROS2 Humble安装
+# geometry-msgs  # 通过ROS2安装
+# sensor-msgs  # 通过ROS2安装
+# nav-msgs  # 通过ROS2安装
+
+# 机器学习框架
+torch>=2.5.1
+torchvision>=0.20.1
+
+# 数据处理
+opencv-python>=4.5.0
+Pillow>=8.0.0
+
+# 可选的开发工具
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0
+
+# 注意：
+# 1. Isaac Sim和Isaac Lab需要通过官方安装程序安装
+# 2. ROS2依赖需要通过系统包管理器安装
+# 3. 某些依赖可能与Isaac环境冲突，请按需安装
