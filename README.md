@@ -1,6 +1,7 @@
 # Isaac B2 ROS2 仿真项目
 
 基于NVIDIA Isaac Sim 4.5和Isaac Lab 2.1的B2机器人仿真与ROS2集成项目。
+本项目参考https://github.com/Zhefan-Xu/isaac-go2-ros2，且大多数功能尚未开发完成
 
 ## 📋 项目概述
 
