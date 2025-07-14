@@ -43,7 +43,7 @@ MANIFEST
 .venv/
 venv/
 ENV/
-env/
+# env/
 .env
 
 # PyCharm
